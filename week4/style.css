@@ -1,0 +1,35 @@
+body{
+    background:linear-gradient(to right, #B24592,#F15F79);
+
+}
+
+form{
+
+    border: 2px solid black;
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+
+input[type="button"]{
+    background-color: #B24592;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+input[type="button"]:hover{
+    background-color: #F15F79;
+}

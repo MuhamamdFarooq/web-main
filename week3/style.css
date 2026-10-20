@@ -1,0 +1,29 @@
+.card{
+    height: 450px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+img{
+    width:200px
+}
+h2{
+margin-top: 5px;
+color: orange;
+}
+button{
+background-color: orange;
+border: none;
+padding: 10px;
+margin-bottom: 0;
+width: 100%;
+border-radius: 50px;
+font-weight: bold;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+   
+}
