@@ -1,3 +1,9 @@
+body{
+
+margin: 0;
+padding: 0;
+}
+
 .fa-brands{
     font-size: 50px;
 }
@@ -17,8 +23,62 @@
 p{
     font-family: 'Bebas Neue', cursive;
     font-size: 15px;
-    background-color: rgb(237, 14, 14);
+    /* background-color: rgb(237, 14, 14); */
+    font-weight: bold;
     color: aliceblue;
     line-height: 2;
     letter-spacing: 2px;
+    margin: 50px;
+    color: brown;
+}
+
+.header{
+    background-color: rgb(237, 14, 14);
+    height:50px;
+}
+.banner{
+  height: 400px;
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    text-align: center;
+    
+}
+.main{
+        background-color: green;
+         height:300px;
+}
+.footer{
+    background-color: black;
+     height:50px;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    
+    margin: 10px;
+}
+
+button{
+    background-color: rgb(223, 126, 126);
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    
+}
+button:hover{
+    background-color: rgb(237, 14, 14);
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+ 
 }
