@@ -1,0 +1,38 @@
+
+body{
+
+}
+table{
+
+    width: 50%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+th, td{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+th{
+    background-color: rgb(237, 14, 14);
+    color: aliceblue;
+}
+
+tr:hover{
+    background-color: rgb(223, 126, 126);
+    color: aliceblue;
+}
+
+.container{
+    width:500px;
+    border: 2px solid black;
+    margin: auto;
+}
+img{
+    float: right;
+    width: 200px;
+    height: 200px;
+}
